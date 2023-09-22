@@ -1,0 +1,49 @@
+/* Default styles for the icons inside .control elements */
+.controls .control i {
+    font-size: 24px; /* Font size*/
+    color: #f9f9f5; /* Default color */
+    transition: color 0.3s ease; /* Color transition effect */
+}
+
+.controls .control:hover i {
+    color: #ff6b00;
+}
+
+.submit-btn {
+    font-size: 24px; 
+    color: #040000; 
+    cursor: pointer;
+    padding: 10px 10px;
+    border: #ebe7e7;
+}
+
+.submit-btn:hover {
+    background-color: none;
+    color: #ff6b00;
+    transition: all 0.4s ease-out;
+
+}
+
+.submit-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: all 0.2s ease-out;
+  }
+
+/* Default button styles
+.main-btn {
+    background-color: #01060c; /* Default background color 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.3s ease; 
+}
+
+ Hover effect for the button 
+.main-btn:hover {
+    background-color: #ff6a00c4; /* Background color on hover */
+
